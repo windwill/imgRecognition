@@ -7,16 +7,16 @@ from libs import *
 DATA_DIR ='/home/klshang81/driver/imgs'
 # list the label class you want to predict. For example, "safe", "using cell phone", "texting", "fatigue", etc. 
 CLASS_NAMES=[
-    'c0',
-    'c1',
-    'c2',
-    'c3',
-    'c4',
-    'c5',
-    'c6',
-    'c7',
-    'c8',
-    'c9'
+    'type1',
+    'type2',
+    'type3',
+    'type4',
+    'type5',
+    'type6',
+    'type7',
+    'type8',
+    'type9'
+    'type10',
 ]
 
 ### transform image data to tensor
