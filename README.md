@@ -5,8 +5,6 @@ This program is a concise image recognition program to help readers quickly unde
 
 It is coded in Python using PyTorch, which is an open source deep learning package.
 
-The program accompanies the example included in a SOA sponsored report (Applying Image Recognition to Insurance)
-
 The program has been tested using Python3.5 under ubuntu 16.04 LTS with Nivida GPUs
 
 # File Structure 
