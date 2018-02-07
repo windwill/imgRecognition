@@ -1,0 +1,15 @@
+--- [prediction started 2018-02-06 17:42:35] ----------------------------------------------------------------
+
+
+** dataset setting **
+	(height,width)    = (96, 96)
+	in_channels       = 3
+	test_dataset = valid4424
+	test_dataset # of imgs  = 4424
+	batch_size        = 96
+
+** net setting **
+	model_file = /home/klshang81/driver/results/debug/calibrated/final.torch
+
+** predict image: default **
+** predict image: left-right **
