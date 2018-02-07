@@ -1,5 +1,5 @@
 # imgRecognition
-Image Recognition Program used for Report "Image Recognition for Insurance" sponsored by the Society of Actuaries (SOA).
+Image Recognition Program used for research "Image Recognition for Insurance" sponsored by the Society of Actuaries (SOA).
 
 This program is a concise image recognition program to help readers quickly understand and use deep learning models for image recognition. It is intended for educational purpose.
 
