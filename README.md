@@ -72,6 +72,9 @@ Line 331: data location    The file that specifies the locations of the testing 
 
 Line 364: augment          Augments to be applied to test images
 
+# Data
+You would need to provide the images and the labels of the images. Proprietary image data may be used to solve specific problems. Open image datasets can be used as well.
+
 # Run Program
 1. move to the root folder that contains file "model-train.py"
 2. run command "python3 model-train.py" for model training and prediction.
