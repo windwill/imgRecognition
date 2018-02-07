@@ -4,8 +4,8 @@
 ** dataset setting **
 	(height,width)    = (96, 96)
 	in_channels       = 3
-	test_dataset = valid4424
-	test_dataset # of imgs  = 4424
+	test_dataset = valid2400
+	test_dataset # of imgs  = 2400
 	batch_size        = 96
 
 ** net setting **
