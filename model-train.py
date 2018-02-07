@@ -152,7 +152,7 @@ def augment(x, u=0.75):
 def training():
     
     # specify the folder where you will save the results
-    out_dir ='/home/klshang81/driver/results/dedug'
+    out_dir ='/home/klshang81/driver/results/debug'
     os.makedirs(out_dir +'/calibrated', exist_ok=True)
 
     # Write basic run information to run log
