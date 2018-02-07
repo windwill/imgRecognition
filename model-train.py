@@ -316,11 +316,11 @@ def training():
 def predicting():
 
 
-    out_dir ='/home/klshang81/driver/results/dedug'
+    out_dir ='/home/klshang81/driver/results/debug'
     model_file = out_dir +'/calibrated/final.torch'
 
     log = Logging()
-    log.open(out_dir+'/submissions/log.predicting.txt',mode='a')
+    log.open(out_dir+'/prediction/log.predicting.txt',mode='a')
     log.write('\n--- [prediction started %s] %s\n\n' % (datetime.now().strftime('%Y-%m-%d %H:%M:%S'), '-' * 64))
     log.write('\n')
 
@@ -381,7 +381,7 @@ def predicting():
         augment = augments[a]
         predictions = all_predictions[a]
 
-        test_dir = out_dir +'/submissions/'+ augment
+        test_dir = out_dir +'/prediction/'+ augment
         os.makedirs(test_dir, exist_ok=True)
 
         assert(type(test_loader.sampler)==torch.utils.data.sampler.SequentialSampler)
