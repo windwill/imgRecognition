@@ -1,3 +1,5 @@
+This repository will be retired and moved to the official SOA repository: https://github.com/society-of-actuaries/Image-Recognition-for-Insurance
+
 # imgRecognition
 Image Recognition Program used for research "Image Recognition for Insurance" sponsored by the Society of Actuaries (SOA).
 
